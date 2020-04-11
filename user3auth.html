@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<title>Cast Portal</title>
+		<meta charset="UTF-8">
+		<link href="hansen.css" rel="stylesheet">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<div id="wrapper">
+			<nav>
+				<img src="logo.gif" alt="Logo" height="100" width="155.56">
+			</nav>
+			<div id="content">
+				<br>
+				<div>
+					Welcome Quin
+					<br>
+					Please enter your credentials
+					<br>
+					<br>
+					<form>
+
+<p>Username :
+
+  <input type="text" name="text2">
+
+</p>
+
+<p> Password :
+
+<input type="password" name="text1">
+
+  <input type="button" value="Login" name="Submit" onclick=javascript:validate(text2.value,"quin.johnson",text1.value,"04232005") >
+
+</p>
+
+ 
+
+</form>
+
+<script language = "javascript">
+
+ 
+
+/*
+
+Script by Anubhav Misra (anubhav_misra@hotmail.com)
+
+Submitted to JavaScript Kit (http://javascriptkit.com)
+
+For this and 400+ free scripts, visit http://javascriptkit.com
+
+*/
+
+ 
+
+function validate(text1,text2,text3,text4)
+
+{
+
+ if (text1==text2 && text3==text4)
+
+ load('user3.html');
+
+ else
+
+ {
+
+  alert("Invalid credentials. Please try again");
+
+ }
+
+}
+
+function load(url)
+
+{
+
+ location.href=url;
+
+}
+
+</script>
+					<br>
+					or return to <a href="https://www.dearevanhansenfilm.com">DearEvanHansenFilm.com</a>
+				</div>
+				<footer>
+					Copyright &copy; Alexander Gutowski
+					<br>
+					<a href="mailto:alexander.gutowski@dearevanhansenfilm.com">alexander.gutowski@dearevanhansenfilm.com</a>
+					<br>
+					All Rights Reserved
+					<br>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>
